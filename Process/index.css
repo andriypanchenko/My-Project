@@ -1,0 +1,124 @@
+body {
+    background-image: url(../img/background.png);
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	font-size: 24px;
+	color: #357FD6
+}
+
+#wrapper {
+    width: 800px;
+    background-color: white;
+    margin: 20px auto;
+    border: 2px solid #357FD6;
+    border-radius: 10px
+}
+
+nav {
+	display: inline-block;
+	vertical-align: top;
+ 	height: 40px;
+  	text-align: center;
+  
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li {
+	list-style-position: inside;
+
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 9px 30px;
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.top-menu a {
+	color: #357FD6;
+	
+}
+
+.active a {
+	background: #29c5e6;
+	color: #fff;
+	padding: inherit
+}
+	
+.top-menu li a:hover {
+	position: static;
+    background: #29c5e6;
+	color: #fff;
+	padding: inherit;
+	margin: 0px;
+}
+
+.about {
+	height: 260px;
+}
+
+.about h2 {
+	text-align: center;
+}
+
+.about img {
+	float: left;
+	margin: 0 1em 0 1em;
+}
+
+.my-work {
+	text-align: center;
+	height: 250px;
+}
+
+
+.contacts {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px
+}
+
+
+
+
+
+.botton p {
+	float: right;
+	margin: 10px 220px 0 0;
+	padding: 9px 0 0px 0;
+	height: 30px;
+	width: 180px;
+	background-color: #357FD6;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 10px;
+}
+
+.botton a {
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+.botton p:hover {
+	background-color: #fff;
+	color: red;
+	border: 2px solid #357FD6;
+	
+}
