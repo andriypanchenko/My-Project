@@ -5,7 +5,7 @@ body {
 }
 
 hr {
-    background-color: #337AB7;
+    background-color: #d5d5cd;
     height: 1px;
 }
 
@@ -30,7 +30,7 @@ a {
 
 #wrapper {
 	margin: 20px auto;
-	width: 800px;
+	max-width: 800px;
 	background-color: #fff;
 	border: 1px solid #0076BE;
 	border-radius: 10px;
@@ -39,10 +39,8 @@ a {
 
 .top-menu {
 	position: relative;
-	overflow: hidden;
 	padding-top: 1px; 
-	width: 800px;
-	height: 44px;
+	min-height: 44px;
 	border-radius: 9px 9px 0 0;
 	background: url(../img/header.png) repeat-x;
 }
@@ -82,13 +80,12 @@ a {
 	font-weight: bold;
 }
 
-
-
-
+.header-slide img {
+	max-width: 800px;
+}
 
 .about {
 	padding: 20px;
-
 }
 
 .about img {
@@ -100,7 +97,7 @@ a {
 
 .photo {
 	float: left;
-	margin: 0 2em 0 2em;
+	margin: 35px 30px;
 }
 
 .social-list {
@@ -171,6 +168,10 @@ div.gallery {
 	white-space: nowrap;
 }
 
+.contacts {
+	overflow: hidden;
+}
+
 .contact-box {
 	float: left;
 	margin: 59px 30px;
@@ -178,9 +179,9 @@ div.gallery {
 
 #phone, #email, #skype {
 	background-repeat: no-repeat;
-	padding: 5px 10px 10px 40px
+	background-size: 20px;
+	padding: 0px 10px 15px 32px
 }
-
 
 #phone {
 	background-image: url(../img/phone.png);
@@ -198,8 +199,10 @@ div.gallery {
 }
 
 .forma {
-	margin: 30px 30px 30px 390px;
-	width: 355px;
+	max-width: 360px;
+	float: left;
+margin: 30px 30px 30px 60px;
+
 	
 }
 
@@ -221,20 +224,34 @@ div.gallery {
 
 
 .work-gallery {
-	padding: 20px;
+	overflow: hidden;
+	padding: 0 15px;
 
 }
 
-.work-gallery img {
+article {
+	overflow: hidden;
+	padding: 30px 0px 20px 0px;
+	border-bottom: 1px solid #d5d5cd;
+}
+
+article .gal-img img {
+	display: block;
+	float: left;
 	width: 250px;
+	margin: 0 30px 20px 20px;
 	border: 5px solid #fff;
 	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
 }
 
-
-.photo-gal {
+article .description {
+	width: 450px;
 	float: left;
-	margin: 0 2em 0 2em;
+}
+
+//.gal-img {
+	float: left;
+	margin: 0 30px 0 30px;
 }
 
 
